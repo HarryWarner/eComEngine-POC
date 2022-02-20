@@ -1,0 +1,45 @@
+.pageHeadings {
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+}
+
+thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #FFF;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+tbody td {
+    border: solid 1px #DDEEEE;
+    color: #FFF;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+td:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+}
+
+.table a {
+    display: block;
+    text-decoration: none;
+}
